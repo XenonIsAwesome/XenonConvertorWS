@@ -64,10 +64,10 @@
 	</wsdl:binding>
 	<wsdl:service name="XenonConvertor">
 		<wsdl:port name="XenonConvertorSoap" binding="tns:XenonConvertorSoap">
-			<soap:address location="http://localhost:26175/XenonConvertor.asmx"/>
+			<soap:address location="https://raw.githubusercontent.com/XenonIsAwesome/XenonConvertorWS/main/XenonConvertor.asmx"/>
 		</wsdl:port>
 		<wsdl:port name="XenonConvertorSoap12" binding="tns:XenonConvertorSoap12">
-			<soap12:address location="http://localhost:26175/XenonConvertor.asmx"/>
+			<soap12:address location="https://raw.githubusercontent.com/XenonIsAwesome/XenonConvertorWS/main/XenonConvertor.asmx"/>
 		</wsdl:port>
 	</wsdl:service>
 </wsdl:definitions>
